@@ -38,6 +38,8 @@ It demonstrates a complete workflow using the AnnData framework and Scanpy, incl
 ---
 
 🔄 Workflow
+<img width="612" height="1709" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/dcbcb75e-939a-4e0f-b520-e17633113a99" />
+
 
 Raw Data
    ↓
