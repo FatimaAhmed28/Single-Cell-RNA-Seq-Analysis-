@@ -74,13 +74,79 @@ Insights:
 * B cells form a distinct cluster
 
 ---
+3. QC Violin Plots
 
-3️. Distance Matrix (Unordered)
+<img width="3007" height="955" alt="1" src="https://github.com/user-attachments/assets/3bd83ffb-d6ac-4d2a-bdd4-39f1934d8311" />
+
+Interpretation:
+
+Low n_genes_by_counts indicates poor-quality or dying cells.
+High total_counts may suggest doublets or multiplets.
+Elevated pct_counts_mt reflects stressed or damaged cells.
+---
+
+4. QC Scatter Plots
+<img width="1160" height="907" alt="2" src="https://github.com/user-attachments/assets/a431453c-e39f-4881-bea8-0365b2cdbc06" />
+Interpretation:
+
+Cells with high mitochondrial % and counts are likely low-quality.
+Positive correlation between counts and genes reflects sequencing depth.
+Outliers reveal potential doublets or failed cells.
+---
+
+5. Highly Variable Genes (HVG)
+<img width="2037" height="906" alt="3" src="https://github.com/user-attachments/assets/439f766f-3862-4dab-9be0-843f5fb298d8" />
+Interpretation:
+
+HVGs capture biological variability across cells.
+Low-dispersion genes represent noise or housekeeping genes.
+Selecting HVGs improves downstream clustering accuracy.
+
+---
+
+6. PCA Variance Ratio (Elbow Plot)
+<img width="1110" height="963" alt="4" src="https://github.com/user-attachments/assets/484e599f-cb1a-4db1-b3f6-6343b6bec57b" />
+Interpretation:
+
+
+Early PCs explain most of the variance in data.
+
+
+The “elbow point” indicates diminishing returns of additional PCs.
+
+
+Selecting optimal PCs avoids noise inclusion.
+
+---
+
+7. PCA Scatter Plot (Gene Expression)
+<img width="1019" height="895" alt="5" src="https://github.com/user-attachments/assets/8e6232b2-6b46-47a0-b630-3846bfa6f356" />
+Interpretation:
+
+Clusters begin to emerge in reduced dimensions.
+Gene coloring highlights expression patterns across cells.
+Early biological structure becomes visible.
+---
+
+8. Marker Gene Ranking Plot
+<img width="2064" height="1194" alt="6" src="https://github.com/user-attachments/assets/6322139b-a2fd-4505-be18-0cd9f532f0db" />
+
+
+Interpretation:
+
+Identifies genes that define each cluster.
+Highlights biological differences between populations.
+Enables downstream cell type annotation.
+
+---
+
+9. Distance Matrix (Unordered)
 
 Pairwise cell distances in PCA space
 
 
 <img width="500" height="500" alt="fig3" src="https://github.com/user-attachments/assets/114a8528-6f4b-4296-8077-ff45796ddbda" />
+
 
 Interpretation:
 
@@ -89,7 +155,7 @@ Interpretation:
 
 ---
 
-4️. Distance Matrix (Reordered)
+10. Distance Matrix (Reordered)
 
 Cells reordered by Louvain clusters
 
@@ -132,6 +198,9 @@ Key Findings
 * B cells show strong cluster separation
 * Distance matrices become clearer after reordering
 * AnnData provides a unified data framework
+* QC removes noise and ensures reliable analysis
+* HVGs drive meaningful biological variation
+* Clustering + marker genes reveal cell identities
 
 ---
 
