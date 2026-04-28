@@ -76,7 +76,7 @@ Insights:
 ---
 3. QC Violin Plots
 
-<img width="500" height="500" alt="1" src="https://github.com/user-attachments/assets/3bd83ffb-d6ac-4d2a-bdd4-39f1934d8311" />
+<img width="800" height="500" alt="1" src="https://github.com/user-attachments/assets/3bd83ffb-d6ac-4d2a-bdd4-39f1934d8311" />
 
 Interpretation:
 
