@@ -86,7 +86,7 @@ Interpretation:
 ---
 
 4. QC Scatter Plots
-<img width="1000" height="500" alt="2" src="https://github.com/user-attachments/assets/a431453c-e39f-4881-bea8-0365b2cdbc06" />
+<img width="800" height="500" alt="2" src="https://github.com/user-attachments/assets/a431453c-e39f-4881-bea8-0365b2cdbc06" />
 Interpretation:
 
 * Cells with high mitochondrial % and counts are likely low-quality.
@@ -95,7 +95,7 @@ Interpretation:
 ---
 
 5. Highly Variable Genes (HVG)
-<img width="1000" height="500" alt="3" src="https://github.com/user-attachments/assets/439f766f-3862-4dab-9be0-843f5fb298d8" />
+<img width="800" height="500" alt="3" src="https://github.com/user-attachments/assets/439f766f-3862-4dab-9be0-843f5fb298d8" />
 Interpretation:
 
 * HVGs capture biological variability across cells.
@@ -105,7 +105,7 @@ Interpretation:
 ---
 
 6. PCA Variance Ratio (Elbow Plot)
-<img width="1000" height="500" alt="4" src="https://github.com/user-attachments/assets/484e599f-cb1a-4db1-b3f6-6343b6bec57b" />
+<img width="800" height="500" alt="4" src="https://github.com/user-attachments/assets/484e599f-cb1a-4db1-b3f6-6343b6bec57b" />
 Interpretation:
 
 * Early PCs explain most of the variance in data.
@@ -115,7 +115,7 @@ Interpretation:
 ---
 
 7. PCA Scatter Plot (Gene Expression)
-<img width="1000" height="500" alt="5" src="https://github.com/user-attachments/assets/8e6232b2-6b46-47a0-b630-3846bfa6f356" />
+<img width="800" height="500" alt="5" src="https://github.com/user-attachments/assets/8e6232b2-6b46-47a0-b630-3846bfa6f356" />
 Interpretation:
 
 * Clusters begin to emerge in reduced dimensions.
@@ -124,7 +124,7 @@ Interpretation:
 ---
 
 8. Marker Gene Ranking Plot
-<img width="1000" height="500" alt="6" src="https://github.com/user-attachments/assets/6322139b-a2fd-4505-be18-0cd9f532f0db" />
+<img width="800" height="500" alt="6" src="https://github.com/user-attachments/assets/6322139b-a2fd-4505-be18-0cd9f532f0db" />
 
 
 Interpretation:
